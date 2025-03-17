@@ -125,7 +125,6 @@ def process_audio():
 
         # Transcribe the WAV audio
         transcription_text = transcribe_audio(wav_path)
-
         # Extract structured data
         # structured_data = extract_data(transcription_text)
 
